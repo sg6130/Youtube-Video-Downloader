@@ -13,6 +13,6 @@ for line in file:
         if match1 != None :
             print(match1.group(0))
             YouTube(match1.group(0)).streams.first().download('G:/Youtube videos')
-            print("yes")
+            #print("yes")
 
 
